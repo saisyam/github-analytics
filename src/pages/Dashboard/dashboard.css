@@ -1,0 +1,13 @@
+.wrapper{
+    position: relative;
+      top: 0;
+      height: 100vh;
+  }
+    
+  .main-panel {
+    background: #ffffff;
+    position: relative;
+    float: right;
+    width: calc(100% - 260px);
+    min-height: 100%;
+  }
