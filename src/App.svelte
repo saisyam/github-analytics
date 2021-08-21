@@ -8,7 +8,7 @@
 <main>
 	<Container fluid style="margin-top:55px;">
 		<Navbar></Navbar>
-		<BasicDetails username="saisyamd"></BasicDetails>
+		<BasicDetails username="saisyam"></BasicDetails>
 	</Container>
 	
 </main>
