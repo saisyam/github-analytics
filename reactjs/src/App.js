@@ -7,7 +7,7 @@ function App() {
     <>
     <NavBar></NavBar>
     <Container fluid style={{"padding":"10px"}}>  
-      <BasicDetails></BasicDetails>
+      <BasicDetails username="saisyam"></BasicDetails>
     </Container>
     </>
   );

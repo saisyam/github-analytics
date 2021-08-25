@@ -10,7 +10,7 @@ function BasicDetails(props) {
     const [error, setError] = useState("");
 
     useEffect(() => {
-        const url = "https://api.github.com/users/saisyam";
+        const url = "https://api.github.com/users/"+props.username;
 
         const fetchData = async () => {
             try {
@@ -57,9 +57,9 @@ function BasicDetails(props) {
             <Col>
                 <Datacard
                     color="orange-dark"
-                    title="Stars"
+                    title="Following"
                     text={following}
-                    icon="star"
+                    icon="person"
                 />
             </Col>
         </Row>
