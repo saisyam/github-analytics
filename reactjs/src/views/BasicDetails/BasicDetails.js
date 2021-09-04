@@ -1,16 +1,19 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useContext } from "react"
 import { Row, Col } from 'react-bootstrap';
 import Datacard from "../../components/Datacard";
+import  UsernameContext from "../../context/UsernameContext";
 
-function BasicDetails(props) {
+function BasicDetails() {
     const [repos, setRepos] = useState("");
     const [gists, setGists] = useState("");
     const [followers, setFollowers] = useState("");
     const [following, setFollowing] = useState("");
     const [error, setError] = useState("");
 
+    const { username } = useContext(UsernameContext);
+
     useEffect(() => {
-        const url = "https://api.github.com/users/"+props.username;
+        const url = "https://api.github.com/users/"+username;
 
         const fetchData = async () => {
             try {
@@ -26,7 +29,7 @@ function BasicDetails(props) {
         };
 
         fetchData();
-    }, []);
+    }, [username]);
 
     return (
         <Row>
