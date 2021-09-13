@@ -15,10 +15,13 @@ function App() {
     <UsernameContext.Provider value={value}>
       <NavBar></NavBar>
       <Container fluid style={{ "paddingTop": "10px" }}>
+      <Username></Username>
+      <BasicDetails></BasicDetails>
+      <UserDataCard></UserDataCard>
         {/* <Username></Username>
         <BasicDetails></BasicDetails>
         <UserDataCard></UserDataCard> */}
-        <UserDataCard2></UserDataCard2>
+        {/* <UserDataCard2></UserDataCard2> */}
       </Container>
     </UsernameContext.Provider>
   );
