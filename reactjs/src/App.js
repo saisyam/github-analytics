@@ -5,7 +5,6 @@ import UsernameContext from "./context/UsernameContext";
 import Username from "./components/Username";
 import { useState } from "react";
 import UserDataCard from "./views/userdatacard";
-import UserDataCard2 from "./views/userdatacard2";
 
 function App() {
   const [username, setUsername] = useState("saisyam");
