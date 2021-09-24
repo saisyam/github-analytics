@@ -1,0 +1,72 @@
+.custom-user-card{
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 20px;
+    display: inline-flex;
+    margin: auto;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%), 0 0.9375rem 1.40625rem rgb(90 97 105 / 10%), 0 0.25rem 0.53125rem rgb(90 97 105 / 12%), 0 0.125rem 0.1875rem rgb(90 97 105 / 10%);
+}
+.custom-user-card .img-block{
+text-align: center;
+}
+.custom-user-card .img-block img{
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    margin-bottom: 15px;
+}
+.custom-user-card .img-block h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height:32px;
+    color: #1c0950;
+    margin: 0px;
+    text-transform: uppercase;    
+}
+.custom-user-card .content-block {
+    padding:0px 20px;
+    font-size: 14px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height:32px;
+    color: #1c0950;
+    margin: 0px;
+    text-transform: uppercase;  
+}
+.sub-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height:24px;
+    color: #787878;
+    margin: 0px;
+}
+.desp,.location-info{
+    font-size: 14px;
+    font-weight: 400;
+    line-height:24px;
+    color: #212121;
+    margin-bottom:4px;
+    display: block;
+}
+.blog-info{
+    font-size: 14px;
+    font-weight: 600;
+    line-height:20px;
+    color: #1c0950;
+    margin-bottom: 6px;
+}
+.icon-bg{
+    width: 32px;
+    height: 32px;
+    background:#ffffff;
+    border:1px solid #cccccc;
+    border-radius:8px;
+    margin-right:12px;
+    cursor: pointer;
+}
+.icon-bg i{
+    font-size: 20px;
+}
